@@ -1,0 +1,27 @@
+# data/
+*.pdf
+*.mp4
+*.wav
+.DS_Store
+*/.DS_Store
+meetings/
+*objects*
+.env
+
+# notebooks/data/
+notebooks/final
+
+__pycache__
+*/__pycache__
+
+*.npz
+src/models/*
+*appDockerData*
+
+!src/models/README.md
+!videotulenDemo.mp4
+!src/frontend/.env
+
+!thesis/presentatieWoogle/thesis_presentatie___simpel.pdf
+!thesis/presentatie/thesis_presentatie.pdf
+!thesis/thesis/Thesis_Pepijn_van_Wijk.pdf
